@@ -744,7 +744,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2; }
-
+  
 .image-stack-v2 {
   display: -ms-grid;
   display: grid;
@@ -765,6 +765,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     z-index: 1; }
   .image-stack-v2 img {
     width: 100%;
+    border-radius: 2px;
     display: block; }
 
 .feature-v3 h3 {
@@ -1069,7 +1070,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .hero-slant.overlay {
     position: relative; }
     .hero-slant.overlay:before {
-      position: absolute;
+      position: relative;
       content: "";
       left: 0;
       bottom: 0;
@@ -1077,7 +1078,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       top: 0;
       background: rgba(0, 0, 0, 0.2); }
   .hero-slant .container {
-    position: relative; }
+    position: absolute; }
   .hero-slant, .hero-slant > .container > .row {
     height: 120vh; }
   .hero-slant .sign-up-form {
