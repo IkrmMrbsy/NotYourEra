@@ -775,7 +775,7 @@ border-radius: 100%;
 
 .social-icon li a:hover {
   border-color: #e63946;
-  color: #e63946;
+  background-color:#e63946 ;
   transform: scale(1.1);
 }
 
