@@ -1028,6 +1028,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .main-slider .owl-dots, .custom-slider .owl-dots {
   bottom: -50px; }
 
+  .owl-carousel {
+    autoplay: false !important;
+  }
+  
+
 .main-slider .owl-nav, .custom-slider .owl-nav {
   position: absolute;
   top: 50%;
